@@ -8,6 +8,7 @@ header{
 }
 nav{
     float: center;
+    background-color: teal;
 }
 nav ul{
     margin: 0;
@@ -43,9 +44,6 @@ nav ul li a{
     width: 500px;
     height: 250px;
 }
-.navbar{
-  background-color: teal;
-}
 .Reviews{
     background-color: white;
     text-decoration-color: black;
@@ -58,7 +56,7 @@ h2{
     font-family:algerian;
     color: green;
 }
-#mainText{
+.maintext{
     font-family:algerian;
     color: white;
     text-align: justify;
@@ -86,8 +84,8 @@ label{
 .contact{
     color: white;
 }
-#footContent{
-     position: fixed;
+footer{
+         position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
