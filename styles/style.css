@@ -3,64 +3,64 @@ header{
     background-repeat:no-repeat;
     background-size:cover;
     height:400px;
-    width: inherit;
+    width:inherit;
     color:navajowhite;
 }
 nav{
-    float: center;
-    background-color: teal;
+    float:center;
+    background-color:teal;
 }
 nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin:0;
+    padding:0;
+    list-style:none;
 }
 nav li{
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 25px;
+    display:inline-block;
+    margin-left:70px;
+    padding-top:25px;
 }
 nav ul li:hover{
-    background-color: darkgrey;
+    background-color:darkgrey;
 }
 nav ul li a{
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 12px;
-    text-transform: uppercase;
-    display: flex;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
+    color:#fff;
+    font-family:sans-serif;
+    font-size:12px;
+    letter-spacing:1px;
+    line-height:12px;
+    text-transform:uppercase;
+    display:flex;
+    text-decoration:none;
+    cursor:pointer;
+    position:relative;
 }
 .Logo{
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 250px;
+    display:block;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:250px;
 }
 .Reviews{
-    background-color: white;
-    text-decoration-color: black;
+    background-color:white;
+    text-decoration-color:black;
 }
 h1{
     font-family:algerian;
-    color: white;
+    color:white;
 }
 h2{
     font-family:algerian;
-    color: green;
+    color:green;
 }
 .maintext{
     font-family:algerian;
     color: white;
     text-align: justify;
-    margin-right: auto;
+    line-height: 1.6em;
+    width: max(95%, 80%);
 }
 .audioC{
     display:block;
@@ -85,11 +85,11 @@ label{
     color: white;
 }
 footer{
-         position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: black;
-  text-align: center;
+         position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:white;
+  color:black;
+  text-align:center;
 }
