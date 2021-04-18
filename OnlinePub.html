@@ -1,0 +1,104 @@
+<!doctype html>
+<!--  Descriptions : 
+      Author       : Chris Curran
+      Date         : Mar 01
+      Modifications:
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">   <!-- 8bit character encoding capable of encoding all possible characters -->
+    <meta name="description" content="Traditional Irish Music Website">
+    <meta name=-keywords content="Music, Trad, Traditional, Trademic, Lessons, Tin Whistle, Flute, Harmonica, Button Accordion, Uilleann Pipes, Online Pub">
+    <title>Trademic</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <style>
+        body{background: black}
+    </style>
+    <!-- Favicon -->
+    <link rel="icon" type="png" href="images/Logo.png">
+</head>
+<body>
+  <header>
+      <nav><!-- Navigation Bar -->
+        <ul>
+            <li><a href="TinWhistle.html" id="Tin-Whistle">Tin Whistle</a></li>
+            <li><a href="Flute.html" id="Flute">Flute</a></li>
+            <li><a href="Harmonica.html" id="Harmonica">Harmonica</a></li>
+            <li><a href="OnlinePub.html" id="Online-Pub">Online Pub</a></li>
+            <li><a href="ContactUs.html" id="Contact-Us">Contact Us</a></li>
+        </ul><!-- Each of these are given an id because I intend to give each a unique colour set and a pub placard aesthetic -->
+      </nav>
+      <a href="index.html"><img src="images/Full%20Logo.png" alt= "Logo" class="Logo"></a><!-- Using the logo as the home page button -->
+  </header>
+  <main>
+      <h1>Online Pub</h1>
+      <p class="maintext">The Online Pub is where musicians can have a session online.</p>
+      <p class="maintext">How this works is when the person calls a tune, their audio plays and after someone joining in plays a bar of music to the rhythm of the leading musician, the program accounts for the delay and merges the sounds together.<br>People can join in and listen at any point, however, some rooms may be private ( <img src="images/lock.png" class="lock"> ) which means you can listen but cannot play along without prior permissions</p>
+<table> <!-- I'm unable to make actual rooms with my limited knowledge of javascript so I'm hard coding what I'd want the page to look like-->
+  <tr>
+    <th>Rooms</th>
+    <th>Attendees</th>
+  </tr>
+  <tr>
+    <td>Room1</td>
+    <td>18/20</td>
+  </tr>
+  <tr>
+    <td>Room2</td>
+    <td>4/20</td>
+  </tr>
+  <tr>
+    <td>Room3</td>
+    <td>12/20</td>
+    <td><img src="images/lock.png" class="lock"></td>
+  </tr>
+  <tr>
+    <td>Room4</td>
+    <td>9/20</td>
+    <td><img src="images/lock.png" class="lock"></td>
+  </tr>
+    <tr>
+    <td>Room7</td>
+    <td>17/25</td>
+  </tr>
+    <tr>
+    <td>Room9</td>
+    <td>1/25</td>
+  </tr>
+</table>
+<!-- Spacing the two sets of rooms (active and inactive) -->   
+<table> <!-- Empty Rooms -->
+  <tr>
+    <th>Empty Rooms</th>
+    <th>Attendees</th>
+  </tr>
+  <tr>
+    <td>Room5</td>
+    <td>0/20</td>
+  </tr>
+  <tr>
+    <td>Room6</td>
+    <td>0/20</td>
+  </tr>
+  <tr>
+    <td>Room8</td>
+    <td>0/20</td>
+  </tr>
+  <tr>
+    <td>Room10</td>
+    <td>0/20</td>
+  </tr>
+    <tr>
+    <td>Room11</td>
+    <td>0/25</td>
+  </tr>
+    <tr>
+    <td>Room12</td>
+    <td>0/25</td>
+    <td style="border-width: 11px; border-color: black;"></td> <!-- Inline CSS to expand the third row to an equivalent size of the lock icon -->
+  </tr>
+</table>
+  </main>
+        <footer>&copy; 2021 Trademic</footer>
+</body>
+</html>

@@ -14,6 +14,8 @@
     <style>
         body{background: black}
     </style>
+    <!-- Favicon -->
+    <link rel="icon" type="png" href="images/Logo.png">
 </head>
 <body>
   <header>
@@ -22,11 +24,9 @@
             <li><a href="TinWhistle.html" id="Tin-Whistle">Tin Whistle</a></li>
             <li><a href="Flute.html" id="Flute">Flute</a></li>
             <li><a href="Harmonica.html" id="Harmonica">Harmonica</a></li>
-            <li><a href="ButtonAccordion.html" id="Button-Accordion">Button Accordion</a></li>
-            <li><a href="UilleannPipes.html" id="Uilleann-Pipes">Tin Whistle</a></li>
-            <li><a href="OnlinePub" id="Online-Pub">Online Pub</a></li>
-            <li><a href="Reviews.html" id="Reviews">Reviews</a></li>
-        </ul> <!-- Each of these are given an id because I intend to give each a unique colour set and a pub placard aesthetic -->
+            <li><a href="OnlinePub.html" id="Online-Pub">Online Pub</a></li>
+            <li><a href="ContactUs.html" id="Contact-Us">Contact Us</a></li>
+        </ul><!-- Each of these are given an id because I intend to give each a unique colour set and a pub placard aesthetic -->
       </nav>
       <a href="index.html"><img src="images/Full%20Logo.png" alt= "Logo" class="Logo"></a><!-- Using the logo as the home page button -->
   </header>
@@ -36,7 +36,45 @@
 
 We have several tutors and the session is always going in the online pub where people can play the same note at the same time, no bad internet stops that here.
 
-So try one of our tabs, and jam with the best of em!</p>
+So try one of our tabs, and jam with the best of them!</p>
+      <h2>Promotional Video :</h2>
+       <video controls>
+  <source src="videos/TrademicPromo_0.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+          <h2 style="text-align: center;">Important Sites for Traditional Irish Music</h2>
+          <!-- Basic JavaScript -->
+          <script>
+      // Initializing and adding the map
+      function initMap() {
+       // The location of Temple Bar & John McKennas home
+        const templebar = { lat: 53.34561, lng: -6.26343 };
+          // The map itself
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: templebar,
+        });
+        // The marked point
+        const marker = new google.maps.Marker({
+        position: templebar,
+        map: map,
+        });
+      }
+    </script>
+          <div id="map"></div> <!-- Map position on page -->
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGBzjafCpbzfOoejzya3iI-7eBPBdKLzU&callback=initMap&libraries=&v=weekly" async></script> 
+          <!-- google map API -->
+      <h3>News</h3>
+          <section id="columns">
+          <ol>
+            <li>Uileann pipes and button accordion pages will be added in the next update</li>
+            <li>New rooms will be added with additional privacy features such as "listener admission"</li>
+            <li>A new tab for instrument maintenance will follow swiftly</li>
+            <li>Tune names will be added to the instrument recordings as soon as I figure out what they are...</li>
+            <li>More points of interest to be added as soon as I think of more ways to use this map API and keeping it relevant to the site</li>
+              <li>Probably useful for next update is to make rooms accessible come to think of it</li>
+          </ol>
+      </section>
   </main>
         <footer>&copy; 2021 Trademic</footer>
 </body>
