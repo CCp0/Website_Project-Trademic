@@ -135,8 +135,8 @@ video{
     margin: 0 auto 1rem 0;
 }
 .InstrumentPics img{
-    width: 550px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     float: right;
     margin-bottom: 40px;
 }
@@ -160,6 +160,7 @@ form{
     background-color:cornsilk;
     width: 50%;
     margin: auto;
+    margin-bottom: 5px;
 }
 label, input, #subject, #country{
     color: #424949;

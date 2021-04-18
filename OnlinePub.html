@@ -15,7 +15,7 @@
         body{background: black}
     </style>
     <!-- Favicon -->
-    <link rel="icon" type="png" href="images/Logo.png">
+    <link rel="icon" type="image/png" href="images/Logo.png">
 </head>
 <body>
   <header>
@@ -33,7 +33,7 @@
   <main>
       <h1>Online Pub</h1>
       <p class="maintext">The Online Pub is where musicians can have a session online.</p>
-      <p class="maintext">How this works is when the person calls a tune, their audio plays and after someone joining in plays a bar of music to the rhythm of the leading musician, the program accounts for the delay and merges the sounds together.<br>People can join in and listen at any point, however, some rooms may be private ( <img src="images/lock.png" class="lock"> ) which means you can listen but cannot play along without prior permissions</p>
+      <p class="maintext">How this works is when the person calls a tune, their audio plays and after someone joining in plays a bar of music to the rhythm of the leading musician, the program accounts for the delay and merges the sounds together.<br>People can join in and listen at any point, however, some rooms may be private ( <img src="images/lock.png" class="lock" alt="Lock.png"> ) which means you can listen but cannot play along without prior permissions</p>
 <table> <!-- I'm unable to make actual rooms with my limited knowledge of javascript so I'm hard coding what I'd want the page to look like-->
   <tr>
     <th>Rooms</th>
@@ -50,12 +50,12 @@
   <tr>
     <td>Room3</td>
     <td>12/20</td>
-    <td><img src="images/lock.png" class="lock"></td>
+    <td><img src="images/lock.png" class="lock" alt="Lock.png"></td>
   </tr>
   <tr>
     <td>Room4</td>
     <td>9/20</td>
-    <td><img src="images/lock.png" class="lock"></td>
+    <td><img src="images/lock.png" class="lock" alt="Lock.png"></td>
   </tr>
     <tr>
     <td>Room7</td>
@@ -71,6 +71,7 @@
   <tr>
     <th>Empty Rooms</th>
     <th>Attendees</th>
+    <th style="border-width: 11px; border-color: black;"></th> <!-- Inline CSS to expand the third row to an equivalent size of the lock icon -->
   </tr>
   <tr>
     <td>Room5</td>
@@ -95,7 +96,6 @@
     <tr>
     <td>Room12</td>
     <td>0/25</td>
-    <td style="border-width: 11px; border-color: black;"></td> <!-- Inline CSS to expand the third row to an equivalent size of the lock icon -->
   </tr>
 </table>
   </main>
